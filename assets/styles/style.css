@@ -5,11 +5,9 @@
   --clr-neutral: hsl(0, 0%, 83%);
   --clr-neutral-light: hsl(0, 0%, 95%);
   --clr-white: hsl(0, 0%, 100%);
-
   --ff-family: 'Lato', sans-serif;
   --ff-heading: var(--ff-family);
   --ff-body: var(--ff-family);
-
   --fw-regular: 400;
   --fw-regurlar-plus: 500;
   --fw-semi-bold: 700;
@@ -154,4 +152,58 @@ body {
   .address {
     font-size: 14px;
   }
+
+  /* main program */
+  .main_program_wrapper {
+    background: url(../images/program_mobile.png);
+    background-size: contain;
+  }
+
+  .main_program {
+    padding: 50px 15px 50px 15px;
+  }
+
+  .main_program_title_wrapper {
+    text-align: center;
+    align-items: center;
+    color: var(--clr-neutral);
+  }
+
+  hr.main_program_bar {
+    width: 50px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .main_program_card_container {
+    background-color: var(--clr-primary);
+    padding: 10px;
+    margin: 15px 0 15px 0;
+  }
+  
+  .main_program_card {
+    display: flex;
+    align-items: center;
+  }
+
+  .main_program_card_icon {
+    width: 40px;
+  }
+
+  .main_program_card_title {
+    color: var(--clr-secondary);
+    font-weight: var(--fw-bold);
+    width: 15%;
+    margin-left: 15px;
+    margin-right: 45px;
+  }
+
+  .main_program_card_description {
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--clr-neutral);
+  }
+
 }
