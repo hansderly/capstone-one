@@ -1,3 +1,17 @@
+:root {
+  --clr-primary: hsl(222, 11%, 17%);
+  --clr-secondary: hsl(7, 84%, 58%);
+  --clr-neutral: hsl(0, 0%, 83%);
+
+  --ff-family: 'Lato', sans-serif;
+  --ff-heading: var(--ff-family);
+  --ff-body: var(--ff-family);
+
+  --fw-regular: 400;
+  --fw-semi-bold: 700;
+  --fw-bold: 900;
+}
+
 *,
 *::before,
 *::after {
@@ -42,7 +56,12 @@ html:focus-within {
 }
 
 body {
+  font-family: var(--ff-family);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+
 }
