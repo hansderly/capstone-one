@@ -218,4 +218,57 @@ body {
     background-color: var(--clr-secondary);
     color: var(--clr-neutral-light);
   }
+
+  /* featured speaker */
+
+  .featured_title_wrapper {
+    text-align: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+    color: var(--clr-primary);
+  }
+
+  hr.featured_speaker_bar {
+    width: 50px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .featured_speaker_container {
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .featured_speaker_image {
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .bg_img_speaker {
+    position: absolute;
+    width: 50px;
+  }
+
+  .img_speaker {
+    width: 100px;
+    position: absolute;
+    margin: 12px 12px 0 12px;
+  }
+
+  .featured_speaker_name p {
+    font-weight: var(--fw-bold);
+    font-size: 20px;
+  }
+
+  .featured_speaker_work {
+    margin: 15px 0 15px 0;
+    color: var(--clr-secondary);
+    font-style: italic;
+  }
+
+  hr.featured_hr {
+    width: 30px;
+    margin-top: 10px;
+  }
 }
