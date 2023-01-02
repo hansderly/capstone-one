@@ -206,4 +206,16 @@ body {
     color: var(--clr-neutral);
   }
 
+  .main_program_button_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .main_program_button {
+    border: none;
+    padding: 25px 50px;
+    background-color: var(--clr-secondary);
+    color: var(--clr-neutral-light);
+  }
 }
