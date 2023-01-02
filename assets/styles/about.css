@@ -2,4 +2,69 @@
   .hide {
     display: none !important;
   }
+
+  .headline_wrapper {
+    background: url(../images/about_header.png);
+    background-size: contain;
+    height: 60vh;
+    background-repeat: no-repeat;
+  }
+
+  .headline {
+    padding: 60px 15px 0 15px;
+    color: var(--clr-secondary);
+    text-align: center;
+  }
+
+  .headline h1 {
+    font-weight: var(--fw-bold);
+    font-size: 32px;
+  }
+
+  .headline p {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .description_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .description {
+    padding: 25px 10px 25px 10px;
+    border: 1px solid var(--clr-neutral-light);
+    background-color: var(--clr-white);
+  }
+
+  .description p {
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .email_contact_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .email_contact_container {
+    width: 300px;
+  }
+
+  .text_to_email {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .email_contact {
+    font-size: 13px;
+    font-weight: var(--fw-bold);
+    text-decoration: underline;
+    color: var(--clr-primary);
+    margin-top: 10px;
+  }
 }
