@@ -176,11 +176,11 @@ body {
   }
 
   .main_program_card_container {
-    background-color: var(--clr-primary);
+    background-color: hsla(222, 11%, 17%, 0.6);
     padding: 10px;
     margin: 15px 0 15px 0;
   }
-  
+
   .main_program_card {
     display: flex;
     align-items: center;
