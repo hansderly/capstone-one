@@ -47,6 +47,10 @@ ol[role='list'] {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
@@ -63,5 +67,34 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .hide {
+    display: none !important;
+  }
+
+  .navigation_wrapper {
+    display: none;
+    position: absolute;
+    justify-content: center;
+    inset: 0;
+    padding-top: 25px;
+    background-color: var(--clr-neutral);
+  }
+
+  .menu_list > li {
+    padding: 15px;
+    color: var(--clr-secondary);
+    font-weight: var(--fw-semi-bold);
+    font-size: 25px;
+  }
+
+  .menu_btn {
+    display: flex;
+    position: absolute;
+    padding: 15px 0 15px 15px;
+    z-index: 150;
+    background: none;
+    outline: none;
+    border: none;
+  }
 
 }
