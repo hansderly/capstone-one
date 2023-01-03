@@ -161,7 +161,7 @@
     position: relative;
     margin: 15px;
   }
-  
+
   .past_summit_info_wrapper {
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: hsla(7, 84%, 58%,0.6);
+    background-color: hsla(7, 84%, 58%, 0.6);
   }
 
   .past_summit_info {
@@ -191,7 +191,6 @@
     padding: 45px 15px 45px 15px;
     background-color: var(--clr-primary);
   }
-
 
   .partner_title {
     font-size: 20px;
@@ -216,5 +215,21 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
+  }
+
+  /* footer */
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 15px 45px 15px;
+  }
+
+  .footer_img {
+    margin-right: 25px;
+  }
+
+  .footer_rights {
+    font-size: 12px;
   }
 }
