@@ -184,6 +184,7 @@
     display: none !important;
   }
 
+  /* healine */
   .headline_wrapper {
     background: url(../images/bg_desktop.png);
     height: 90vh;
@@ -228,5 +229,71 @@
   .address {
     margin-top: 15px;
     font-size: 23px;
+  }
+
+  /* program */
+  .main_program_wrapper {
+    background: url(../images/program_desktop.png);
+    padding: 50px 0 50px 0;
+  }
+  
+  .main_program_card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    gap: 10px;
+  }
+
+  .main_program_title_wrapper {
+    text-align: center;
+    align-items: center;
+    color: var(--clr-neutral);
+  }
+
+  hr.main_program_bar {
+    width: 50px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .main_program_card_container {
+    background-color: hsla(222, 8%, 25%, .6);
+    text-align: center;
+    width: 250px;
+  }
+
+  .main_program_card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    padding: 45px;
+    align-items: center;
+  }
+
+  .main_program_card_icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main_program_card_title {
+    color: var(--clr-secondary);
+    font-weight: var(--fw-bold);
+    margin: 15px 0 15px 0;
+  }
+
+  .main_program_card_description {
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--clr-neutral);
+  }
+
+  .main_program_button_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
   }
 }
