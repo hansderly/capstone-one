@@ -378,4 +378,59 @@
   .featured_speaker_description {
     line-height: 1.5;
   }
+
+  /* partner */
+  .partner_wrapper {
+    background-color: var(--clr-primary);
+    padding: 50px 0 50px 0;
+  }
+
+  .partner_title_wrapper {
+    text-align: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+    color: var(--clr-primary);
+  }
+  
+  .partner_title {
+    color: var(--clr-neutral-light);
+  }
+
+  hr.partner_bar {
+    width: 30px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .partner_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 55px;
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 15px 65px 15px;
+  }
+  
+  .footer_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+
+  .footer_img {
+    margin-right: 25px;
+  }
+
+  .footer_rights {
+    width: 650px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
 }
