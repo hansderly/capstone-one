@@ -67,4 +67,50 @@
     color: var(--clr-primary);
     margin-top: 10px;
   }
+
+  /* infos section */
+
+  .summit_title_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--clr-primary);
+  }
+
+  .summit_title_container {
+    width: 250px;
+  }
+
+  .summit_title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  hr.summit_bar {
+    width: 25px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .summit_description_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .summit_description {
+    width: 300px;
+  }
+
+  .summit_description p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .summit_logo {
+    margin: 25px 0 25px 0;
+  }
 }
