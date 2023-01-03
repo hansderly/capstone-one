@@ -236,7 +236,7 @@
     background: url(../images/program_desktop.png);
     padding: 50px 0 50px 0;
   }
-  
+
   .main_program_card_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -258,7 +258,7 @@
   }
 
   .main_program_card_container {
-    background-color: hsla(222, 8%, 25%, .6);
+    background-color: hsla(222, 8%, 25%, 0.6);
     text-align: center;
     width: 250px;
   }
@@ -391,7 +391,7 @@
     margin: 25px 0 25px 0;
     color: var(--clr-primary);
   }
-  
+
   .partner_title {
     color: var(--clr-neutral-light);
   }
@@ -416,7 +416,7 @@
     align-items: center;
     padding: 65px 15px 65px 15px;
   }
-  
+
   .footer_logo {
     display: flex;
     justify-content: space-around;

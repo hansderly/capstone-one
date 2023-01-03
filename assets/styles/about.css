@@ -3,6 +3,10 @@
     display: none !important;
   }
 
+  .hide--mobile {
+    display: none !important;
+  }
+
   .headline_wrapper {
     background: url(../images/about_header.png);
     background-size: contain;
@@ -231,5 +235,69 @@
 
   .footer_rights {
     font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hide--desktop {
+    display: none !important;
+  }
+
+  /* headline */
+  
+  .headline_wrapper {
+    height: 90vh;
+    padding: 150px 205px 150px 205px;
+    background: url(../images/hero_about.png);
+    background-size: cover;
+  }
+
+  .title_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .title {
+    text-align: center;
+    width: 50%;
+    color: var(--clr-secondary);
+    font-size: 40px;
+
+  }
+
+  .description_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .description {
+    width: 70%;
+    text-align: center;
+    background-color: var(--clr-white);
+    padding: 25px 35px 25px 35px;
+    border: 3px solid var(--clr-neutral-light);
+  }
+
+  .description p {
+    line-height: 1.6;
+  }
+
+  .email_contact_wrapper {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email_contact_container {
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .email_contact {
+    color: var(--clr-primary);
+    font-weight: var(--fw-bold);
   }
 }
