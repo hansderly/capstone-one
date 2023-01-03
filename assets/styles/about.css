@@ -113,4 +113,45 @@
   .summit_logo {
     margin: 25px 0 25px 0;
   }
+
+  /* past summit section */
+  .past_summit_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--clr-primary);
+    border-top: 1px solid var(--clr-neutral);
+    padding-top: 25px;
+    margin-top: 10px;
+  }
+
+  .past_summit_container {
+    width: 250px;
+  }
+
+  .past_summit {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  hr.past_summit_bar {
+    width: 25px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .past_summit_description_wrapper {
+    margin-bottom: 25px;
+  }
+
+  .past_summit_description {
+    width: 360px;
+    margin-top: 15px;
+  }
+
+  .past_summit_description p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
 }
