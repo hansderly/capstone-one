@@ -17,7 +17,7 @@
   --fw-bold: 900;
 
   /* space */
-  --horizontal-pading: 5px 205px 5px 205px;
+  --horizontal-padding: 5px 205px 5px 205px;
 }
 
 *,
@@ -118,7 +118,7 @@ body {
   .login_social_container {
     display: flex;
     justify-content: flex-end;
-    padding: var(--horizontal-pading);
+    padding: var(--horizontal-padding);
   }
 
   .login_social > ul {
@@ -134,7 +134,7 @@ body {
 
   .navigation_wrapper {
     display: flex;
-    padding: var(--horizontal-pading);
+    padding: var(--horizontal-padding);
     background-color: var(--clr-white);
     box-shadow: 0 3px 14px -7px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0 3px 14px -7px rgba(0, 0, 0, 0.5);

@@ -183,4 +183,13 @@
   .hide--desktop {
     display: none !important;
   }
+
+  .headline_wrapper {
+    background: url(../images/bg_desktop.png);
+    height: 90vh;
+  }
+
+  .headline {
+    padding: var(--horizontal-padding);
+  }
 }
