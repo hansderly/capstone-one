@@ -187,9 +187,46 @@
   .headline_wrapper {
     background: url(../images/bg_desktop.png);
     height: 90vh;
+    padding: 150px 205px 150px 205px;
   }
 
   .headline {
-    padding: var(--horizontal-padding);
+    color: var(--clr-secondary);
+  }
+
+  .title_wrapper {
+    width: 790px;
+  }
+
+  .suport_title > p {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-weight: var(--fw-bold);
+    font-size: 50px;
+  }
+
+  .description_wrapper {
+    width: 650px;
+    padding: 25px;
+    margin: 20px 0 30px 0;
+    border: 2px solid var(--clr-white);
+    background-color: var(--clr-neutral-light);
+  }
+
+  .description {
+    line-height: 1.5;
+  }
+
+  .day {
+    font-size: 40px;
+    font-weight: var(--fw-bold);
+  }
+
+  .address {
+    margin-top: 15px;
+    font-size: 23px;
   }
 }
