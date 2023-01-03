@@ -1,10 +1,13 @@
 :root {
+  /* color */
   --clr-primary: hsl(222, 11%, 17%);
   --clr-secondary: hsl(7, 84%, 58%);
   --clr-primary-light: hsl(0, 0%, 27%);
   --clr-neutral: hsl(0, 0%, 83%);
   --clr-neutral-light: hsl(0, 0%, 95%);
   --clr-white: hsl(0, 0%, 100%);
+
+  /* fonts */
   --ff-family: 'Lato', sans-serif;
   --ff-heading: var(--ff-family);
   --ff-body: var(--ff-family);
@@ -12,6 +15,9 @@
   --fw-regurlar-plus: 500;
   --fw-semi-bold: 700;
   --fw-bold: 900;
+
+  /* space */
+  --horizontal-pading: 0 205px 0 205px;
 }
 
 *,
@@ -105,5 +111,24 @@ body {
 /* desktop */
 
 @media screen and (min-width: 768px) {
+  .login_social_wrapper {
+    background-color: var(--clr-primary);
+  }
+
+  .login_social_container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 205px 5px 205px;
+  }
+
+  .login_social > ul {
+    display: flex;
+    gap: 20px;
+  }
   
+  .login_social > ul > li > a {
+    color: var(--clr-neutral-light);
+    text-decoration: none;
+    font-size: 13px;
+  }
 }
