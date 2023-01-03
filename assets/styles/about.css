@@ -142,6 +142,8 @@
   }
 
   .past_summit_description_wrapper {
+    display: flex;
+    justify-content: center;
     margin-bottom: 25px;
   }
 
@@ -153,5 +155,30 @@
   .past_summit_description p {
     font-size: 13px;
     line-height: 1.5;
+  }
+
+  .past_summit_img_container {
+    position: relative;
+    margin: 15px;
+  }
+  
+  .past_summit_info_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(7, 84%, 58%,0.6);
+  }
+
+  .past_summit_info {
+    color: var(--clr-neutral-light);
+  }
+
+  .past_summit_date {
+    font-weight: var(--fw-bold);
+    font-size: 40px;
   }
 }
