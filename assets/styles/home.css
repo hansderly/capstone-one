@@ -1,5 +1,10 @@
 
+/* mobile */
 @media screen and (max-width: 768px) {
+  .hide--mobile {
+    display: none !important;
+  }
+
   /* headline */
   .headline_wrapper {
     background: url(../images/hero_container.png);
@@ -170,5 +175,12 @@
   hr.featured_hr {
     width: 30px;
     margin-top: 10px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 768px) {
+  .hide--desktop {
+    display: none !important;
   }
 }
