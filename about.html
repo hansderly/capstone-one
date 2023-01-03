@@ -19,20 +19,37 @@
 <body>
     <header>
         <section class="navigation">
-            <button class="menu_btn ">
+            <button class="menu_btn hide--desktop">
                 <i class="fa-solid fa-bars fa-2x "></i>
             </button>
-            <button class="menu_btn hide" style="color:hsl(7, 84%, 58%)">
+            <button class="menu_btn hide hide--desktop" style="color:hsl(7, 84%, 58%)">
                 <i class="fa-solid fa-xmark fa-2x"></i>
             </button>
-            <div class="navigation_wrapper hide">
+            <div class="login_social_wrapper hide--mobile">
+                <div class="login_social_container">
+                    <div class="login_social">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">My Page</a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation_wrapper">
                 <nav class="navbar--mobile navbar--desktop">
+                    <div class="logo_container">
+                        <img src="./assets/images/logo.png" alt="logo company">
+                    </div>
                     <ul class="menu_list">
                         <li>About</li>
                         <li>Program</li>
                         <li>Join</li>
                         <li>Sponsor</li>
                         <li>News</li>
+                        <li class="cc_campaign">CC Campaign</li>
                     </ul>
                 </nav>
             </div>
