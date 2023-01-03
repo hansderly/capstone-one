@@ -306,4 +306,76 @@
     margin: 55px 0 15px 0;
     color: var(--clr-neutral-light);
   }
+
+  /* featured speaker */
+
+  .featured_title_wrapper {
+    text-align: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+    color: var(--clr-primary);
+  }
+
+  hr.featured_speaker_bar {
+    width: 50px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .featured_speaker_container_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    padding: 0 250px 0 250px;
+  }
+
+  .featured_speaker_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+  }
+
+  .featured_speaker_image {
+    position: relative;
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .bg_img_speaker {
+    width: 100px;
+  }
+
+  .img_speaker {
+    position: absolute;
+    width: 150px;
+    top: 20px;
+    left: 20px;
+  }
+
+  .featured_speaker_infos {
+    width: 45%;
+  }
+
+  .featured_speaker_name p {
+    font-weight: var(--fw-bold);
+    font-size: 20px;
+  }
+
+  .featured_speaker_work {
+    margin: 15px 0 15px 0;
+    color: var(--clr-secondary);
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  hr.featured_hr {
+    width: 25px;
+    margin-top: 10px;
+  }
+
+  .featured_speaker_description {
+    line-height: 1.5;
+  }
 }
