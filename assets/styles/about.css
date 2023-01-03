@@ -181,4 +181,40 @@
     font-weight: var(--fw-bold);
     font-size: 40px;
   }
+
+  /* partner section */
+  .partner_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    padding: 45px 15px 45px 15px;
+    background-color: var(--clr-primary);
+  }
+
+
+  .partner_title {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    color: var(--clr-neutral-light);
+  }
+
+  hr.partner_bar {
+    width: 25px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .partner_logo_wrapper {
+    margin-top: 15px;
+  }
+
+  .partner_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 }
