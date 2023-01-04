@@ -5,7 +5,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/ken.png',
+    speaker_img: 'assets/images/hans.png',
   },
   {
     id: 1,
@@ -54,36 +54,29 @@ const showSpeaker = () => {
     '.featured_speaker_container_wrapper',
   );
   let speakersDiv = '';
-  let sectionHide = '';
-  let closeSectionHideDiv = '';
+  let classHide = ''
   speakers.forEach((speaker, index) => {
-    if (index === 2) { sectionHide = '<div class="speaker_hide hide--mobile">'; }
-    if (index === speakers.length - 1) closeSectionHideDiv = '</div>';
-
+    if (index > 1) classHide = 'speaker_hide hide--mobile'
     speakersDiv += `
-        ${sectionHide}
-            <div class="featured_speaker_container">
+            <div class="featured_speaker_container ${classHide}">
                 <div class="featured_speaker_image">
-                    <img class="bg_img_speaker" src="./assets/images/bg-img-speaker.png" alt="" srcset="">
-                    <img class="img_speaker" src="./assets/images/hans.png" alt="" srcset="">
+                    <img class="bg_img_speaker" src="${speaker.bg_img_speaker}" alt="" srcset="">
+                    <img class="img_speaker" src="${speaker.speaker_img}" alt="" srcset="">
                 </div>
                 <div class="featured_speaker_infos">
                     <div class="featured_speaker_name">
                         <p>${speaker.speaker_name}</p>
                     </div>
                     <div class="featured_speaker_work">
-                        <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                        <p>${speaker.speaker_work}</p>
                         <hr class="featured_hr">
                     </div>
                     <div class="featured_speaker_description">
-                        <p>Benkler studies commons-based peer production, and published his seminal book, The Wealth
-                        of
-                        Networks in 2006</p>
+                        <p>${speaker.speaker_description}</p>
                     </div>
                 </div>
             </div>
-            ${closeSectionHideDiv}`;
-    sectionHide = '';
+            `;
   });
   speakerContainer.innerHTML = speakersDiv;
 };
