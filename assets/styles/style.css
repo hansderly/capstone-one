@@ -138,6 +138,14 @@ body {
     font-size: 13px;
   }
 
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
   .navigation_wrapper {
     display: flex;
     padding: var(--horizontal-padding);
