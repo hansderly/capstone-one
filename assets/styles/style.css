@@ -146,6 +146,10 @@ body {
     z-index: 999;
   }
 
+  .logo {
+    width: 80px;
+  }
+
   .navigation_wrapper {
     display: flex;
     padding: var(--horizontal-padding);
