@@ -17,12 +17,13 @@
 </head>
 
 <body>
+
     <header>
         <section class="navigation">
-            <button class="menu_btn hide--desktop">
+            <button class="menu_btn menu_icon hide--desktop">
                 <i class="fa-solid fa-bars fa-2x "></i>
             </button>
-            <button class="menu_btn hide hide--desktop" style="color:hsl(7, 84%, 58%)">
+            <button class="menu_btn close_icon hide hide--desktop" style="color:hsl(7, 84%, 58%)">
                 <i class="fa-solid fa-xmark fa-2x"></i>
             </button>
             <div class="login_social_wrapper hide--mobile">
@@ -38,9 +39,9 @@
                     </div>
                 </div>
             </div>
-            <div class="navigation_wrapper">
+            <div class="navigation_wrapper hide--mobile">
                 <nav class="navbar--mobile navbar--desktop">
-                    <div class="logo_container">
+                    <div class="logo_container hide--mobile">
                         <a href="./index.html">
                             <img src="./assets/images/logo.png" alt="logo company">
                         </a>
@@ -232,6 +233,8 @@
             </div>
         </footer>
     </section>
+
+    <script src="./assets/scripts/index.js"></script>
 </body>
 
 </html>
