@@ -351,6 +351,7 @@
 
   .see_whole_program_wrapper > a {
     margin: 55px 0 15px 0;
+    text-decoration: underline;
     color: var(--clr-neutral-light);
   }
 

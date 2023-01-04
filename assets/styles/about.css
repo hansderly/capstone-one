@@ -298,6 +298,7 @@
   .email_contact {
     color: var(--clr-primary);
     font-weight: var(--fw-bold);
+    text-decoration: underline;
   }
 
   /* summit infos */
