@@ -300,4 +300,123 @@
     color: var(--clr-primary);
     font-weight: var(--fw-bold);
   }
+
+  /* summit infos */
+
+  .summit_infos_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .summit_title_wrapper {
+    text-align: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+    color: var(--clr-primary);
+  }
+
+  .summit_title {
+    color: var(--clr-primary);
+  }
+
+  hr.summit_bar {
+    width: 30px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .summit_description_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .summit_description {
+    width: 40%;
+  }
+  
+  .summit_description p {
+    line-height: 1.5;
+  }
+
+  .summit_logo {
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 55px 0;
+  }
+
+  .logo_summit_desktop {
+    width: 70%;
+  }
+
+  /* past summit */
+
+  .past_summit_wrapper {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--clr-neutral-light);
+  }
+
+  .past_summit_title_wrapper {
+    text-align: center;
+    align-items: center;
+    margin: 55px 0 25px 0;
+    color: var(--clr-primary);
+  }
+
+  .past_summit_title {
+    color: var(--clr-primary);
+  }
+
+  hr.past_summit_bar {
+    width: 30px;
+    border: 1px solid var(--clr-secondary);
+    margin: 15px auto 0 auto;
+  }
+
+  .past_summit_description_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+
+  .past_summit_img_wrapper_container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .past_summit_inner {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    gap: 14px;
+  }
+
+  .past_summit_img_container {
+    position: relative;
+  }
+
+  .past_summit_info_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(7, 98%, 68%, 0.6);
+  }
+
+  .past_summit_info {
+    color: var(--clr-neutral-light);
+    text-align: center;
+  }
+
+  .past_summit_date {
+    font-weight: var(--fw-bold);
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  
 }
