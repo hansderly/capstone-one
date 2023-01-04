@@ -6,15 +6,15 @@ const buttonHide = document.querySelector('.button_hide');
 const speakerSectionHide = document.querySelector('.speaker_hide');
 
 const openCLoseMenu = () => {
-	menu.classList.toggle('hide--mobile');
-	menuIcon.classList.toggle('hide--mobile');
-	closeIcon.classList.toggle('hide');
+  menu.classList.toggle('hide--mobile');
+  menuIcon.classList.toggle('hide--mobile');
+  closeIcon.classList.toggle('hide');
 };
 
 const showHideSpeaker = () => {
-	speakerSectionHide.classList.toggle('hide--mobile');
-	buttonMore.classList.toggle('hide--mobile');
-	buttonHide.classList.toggle('hide--mobile');
+  speakerSectionHide.classList.toggle('hide--mobile');
+  buttonMore.classList.toggle('hide--mobile');
+  buttonHide.classList.toggle('hide--mobile');
 };
 
 menuIcon.addEventListener('click', openCLoseMenu);
