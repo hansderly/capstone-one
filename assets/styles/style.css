@@ -82,7 +82,7 @@ body {
 
   /* navigation */
   .navigation_wrapper {
-    display: none;
+    display: flex;
     position: absolute;
     justify-content: center;
     inset: 0;
