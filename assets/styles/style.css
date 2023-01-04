@@ -87,7 +87,7 @@ body {
     justify-content: center;
     inset: 0;
     padding-top: 25px;
-    background-color: var(--clr-neutral);
+    background-color: var(--clr-neutral-light);
   }
 
   .menu_list > li {
