@@ -178,6 +178,26 @@
   }
 }
 
+.button_more_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button_more_container {
+  padding: 15px;
+}
+
+.button_more {
+  width: 100%;
+  border: 1px solid var(--clr-neutral);
+  background-color: var(--clr-white);
+  padding: 15px 150px 15px 150px;
+}
+
+.button_more i {
+  color: var(--clr-secondary);
+}
+
 /* desktop */
 @media screen and (min-width: 768px) {
   .hide--desktop {
