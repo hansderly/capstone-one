@@ -20,6 +20,10 @@
   .headline h1 {
     font-weight: var(--fw-bold);
     font-size: 34px;
+    background-image: url(../images/433.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
   }
 
   .headline p {
@@ -238,6 +242,12 @@
   .title {
     font-weight: var(--fw-bold);
     font-size: 50px;
+  }
+
+  .title h1 {
+    background-image: url(../images/433.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .description_wrapper {
