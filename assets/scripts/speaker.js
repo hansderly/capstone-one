@@ -54,9 +54,9 @@ const showSpeaker = () => {
     '.featured_speaker_container_wrapper',
   );
   let speakersDiv = '';
-  let classHide = ''
+  let classHide = '';
   speakers.forEach((speaker, index) => {
-    if (index > 1) classHide = 'speaker_hide hide--mobile'
+    if (index > 1) classHide = 'speaker_hide hide--mobile';
     speakersDiv += `
             <div class="featured_speaker_container ${classHide}">
                 <div class="featured_speaker_image">
