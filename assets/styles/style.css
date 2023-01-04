@@ -69,6 +69,10 @@ a:hover {
   color: var(--clr-secondary);
 }
 
+hr {
+  background-color: var(--clr-secondary);
+}
+
 html:focus-within {
   scroll-behavior: smooth;
 }

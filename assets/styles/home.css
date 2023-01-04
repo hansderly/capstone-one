@@ -85,7 +85,7 @@ hr.main_program_bar {
 }
 
 .main_program_card_container {
-  background-color: hsla(222, 11%, 17%, 0.6);
+  background-color: rgba(247, 241, 241, 0.103);
   padding: 10px;
   margin: 15px 0 15px 0;
 }
