@@ -5,7 +5,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/hans.png',
+    speaker_img: 'assets/images/7.png',
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/ken.png',
+    speaker_img: 'assets/images/15.png',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/ken.png',
+    speaker_img: 'assets/images/16.png',
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/ken.png',
+    speaker_img: 'assets/images/28.png',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/ken.png',
+    speaker_img: 'assets/images/30.png',
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const speakers = [
     speaker_work: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speaker_description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     bg_img_speaker: 'assets/images/bg-img-speaker.png',
-    speaker_img: 'assets/images/ken.png',
+    speaker_img: 'assets/images/43.png',
   },
 ];
 
