@@ -418,5 +418,34 @@
     margin-bottom: 25px;
   }
 
-  
+  .footer_wrapper {
+    background-color: var(--clr-primary);
+    margin-top: 70px;
+  }
+
+  .footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 15px 65px 15px;
+  }
+
+  .footer_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
+
+  .footer_img {
+    margin-right: 35px;
+    width: 15%;
+  }
+
+  .footer_rights {
+    width: 650px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--clr-neutral-light);
+  }
 }
