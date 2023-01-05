@@ -1,9 +1,9 @@
 :root {
   /* color */
-  --clr-primary: hsl(222, 11%, 17%);
-  --clr-secondary: hsl(7, 84%, 58%);
-  --clr-primary-light: hsl(0, 0%, 27%);
-  --clr-neutral: hsl(0, 0%, 83%);
+  --clr-primary: hsl(222, 11%, 17%);   /* #272A31 */
+  --clr-secondary: 	hsl(6, 82%, 59%); /* #EC5242 */
+  --clr-neutral: hsl(0, 0%, 83%); /* #D3D3D3 */
+  --clr-primary-light: hsl(0, 0%, 27%); 
   --clr-neutral-light: hsl(0, 0%, 95%);
   --clr-white: hsl(0, 0%, 100%);
 
